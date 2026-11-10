@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mogaji Mohammed Ajibola · UI/UX, Product and Graphic Designer</title>
+<meta name="description" content="Portfolio of Mogaji Mohammed Ajibola: UI/UX and product design, logo design, flyers and branding.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="load">
+<div id="splash" role="status" aria-live="polite" hidden>
+  <div class="sp-in">
+    <div class="sp-mark" aria-hidden="true">M<b>.</b></div>
+    <h2>Are you ready to see Mohammed’s wonderful portfolio?</h2>
+    <div class="sp-pct" id="spPct">0% there…</div>
+    <div class="sp-bar"><i id="spBar"></i></div>
+    <p class="sp-msg" id="spMsg">Warming up…</p>
+  </div>
+  <button class="sp-skip" id="spSkip">Skip</button>
+</div>
+<header id="hd">
+  <a class="logo" href="#top">Mohammed<b>.</b></a>
+  <nav id="nav" aria-label="Main">
+    <a href="#uiux">UI/UX &amp; Product</a><a href="#graphic">Graphic Design</a><a href="#about">About</a><a href="#testimonials" id="tnav" hidden>Testimonials</a><a href="#contact">Contact</a>
+  </nav>
+  <button class="burger" id="burger" aria-expanded="false">Menu</button>
+</header>
+
+<main id="top">
+<section class="hero" style="padding-bottom:0">
+  <div class="wrap">
+    <h1>Mogaji<span>Mohammed Ajibola</span></h1>
+    <p>UI/UX, product and graphic designer. I design interfaces people find easy to use, and identities people remember.</p>
+  </div>
+  <div class="doors">
+    <a class="door" href="#uiux"><img src="img/door-ui-t.webp" alt="" fetchpriority="high"><i>↗</i><small>Websites, prototypes and product design</small><h3>UI/UX &amp; Product Design</h3></a>
+    <a class="door" href="#graphic"><img src="img/luxe-15.webp" alt="" style="object-position:center 30%"><i>↗</i><small>Logos, flyers, branding</small><h3>Graphic Design</h3></a>
+  </div>
+</section>
+
+<section id="uiux"><div class="wrap">
+  <div class="sec-head rv"><div><div class="rule"></div><h2>UI/UX &amp; Product Design</h2><p class="lead">Website and product designs built in Figma. Each project keeps its own visual identity. Open the full design to see every section, or visit the live site or prototype where one exists.</p></div></div>
+  <div id="uiList"></div>
+</div></section>
+
+<section id="graphic" class="dark"><div class="wrap">
+  <div class="sec-head rv"><div><div class="rule"></div><h2>Graphic Design</h2><p class="lead">Identity, print and merchandise work, shown in each client’s own colours.</p></div></div>
+  <div class="tabs rv" role="tablist">
+    <button class="tab" role="tab" aria-selected="true" data-p="p-logo">Logo design</button>
+    <button class="tab" role="tab" aria-selected="false" data-p="p-fly">Flyers &amp; promotional</button>
+    <button class="tab" role="tab" aria-selected="false" data-p="p-merch">Branding &amp; merchandise</button>
+  </div>
+  <div class="panel" id="p-logo"><div class="logos" id="logoList"></div></div>
+  <div class="panel" id="p-fly" hidden><div class="flyers" id="flyList"></div></div>
+  <div class="panel" id="p-merch" hidden><div class="ticker" aria-hidden="true"><div><span>MARQUEXRL ✦ STREETWEAR ✦ HOODIES ✦ PANTS ✦ MARQUEXRL ✦ STREETWEAR ✦ HOODIES ✦ PANTS ✦ </span><span>MARQUEXRL ✦ STREETWEAR ✦ HOODIES ✦ PANTS ✦ MARQUEXRL ✦ STREETWEAR ✦ HOODIES ✦ PANTS ✦ </span></div></div><div class="merch">
+    <div><div class="stage" id="stage"></div><div class="thumbs" id="thumbs"></div></div>
+    <div class="mq">
+      <span class="chip">Brand I worked with</span>
+      <h3>MarqueXrl</h3>
+      <blockquote>“Leveling up streetwear with MarqueXrl’s new hoodie brand! From concept to reality, I’m hyped on how these designs turned out.”</blockquote>
+      <p class="lead">Hoodie and pants mockups for MarqueXrl across six colourways. Pick a colour, then flip through the front, back and full views.</p>
+      <div class="swname">Colourway: <b id="swn">Red</b></div>
+      <div class="swatches" id="sw"></div>
+    </div>
+  </div></div>
+</div></section>
+
+<section id="about"><div class="wrap">
+  <div class="about">
+    <div class="portrait" id="portrait"><span>MA</span></div>
+    <div>
+      <div class="rule"></div><h2 class="words">About</h2>
+      <div style="margin:18px 0 32px">
+        <p class="lead words" style="color:var(--ink)">Hi, I’m Mohammed. I’m a detail-oriented UI/UX designer with over 18 months of professional experience, and I came into interface design from a strong graphic design and visual communication background. Figma is where I do most of my work. When a client or a team brings me their ideas and requirements, I turn them into clean, functional interfaces that people actually enjoy using.</p>
+        <p class="lead words" style="color:var(--ink);margin-top:16px">I graduated from Afe Babalola University, Ado-Ekiti, in 2025 with a B.Sc. in Computer Science, First Class Honours. Right now I’m looking for a UI/UX Designer role, ideally remote or hybrid, where I can work with a team and keep creating meaningful digital experiences.</p>
+        <div class="btns" style="margin-top:26px"><button class="btn" data-cv>Preview my CV</button><a class="btn gold" href="Mohammed_Mogaji_CV.pdf" download="Mogaji_Mohammed_Ajibola_CV.pdf">Download my CV (PDF) ↓</a></div>
+      </div>
+      <div id="exp"></div>
+      <div class="skills" id="skills"></div>
+    </div>
+  </div>
+</div></section>
+
+<section id="testimonials" hidden><div class="wrap">
+  <div class="sec-head"><div><div class="rule"></div><h2 class="words">Kind words</h2></div></div><div class="tgrid" id="tList"></div>
+</div></section>
+
+<section id="contact" class="contact"><div class="wrap">
+  <h2 class="words">Let’s work together.</h2>
+  <p class="lead words" style="color:#c9d3ff;margin-bottom:32px">Open to UI/UX Designer roles, remote or hybrid, and to freelance design work.</p>
+  <div id="cLinks"></div>
+</div></section>
+</main>
+<footer class="site"><span>© <span id="yr"></span> Mogaji Mohammed Ajibola</span><span>Designed and built for this portfolio</span></footer>
+
+<dialog id="cvDlg" aria-label="CV preview"><div class="lb">
+  <div class="top"><h3>My CV</h3><span class="btns"><a class="btn gold" href="Mohammed_Mogaji_CV.pdf" download="Mogaji_Mohammed_Ajibola_CV.pdf">Download PDF ↓</a><button class="x" id="cvX">Close</button></span></div>
+  <div class="view tall cvpages"><img src="img/cv-1.webp" alt="CV, page 1 of 2"><img src="img/cv-2.webp" alt="CV, page 2 of 2"></div>
+</div></dialog>
+<dialog id="dlg" aria-label="Image viewer"><div class="lb">
+  <div class="top"><div><h3 id="lbT"></h3><div class="brief" id="lbB"></div></div><button class="x" id="lbX">Close</button></div>
+  <div class="view" id="lbV"><img id="lbI" alt=""></div>
+  <div class="strip" id="lbS"></div>
+  <div class="bottom"><span class="cap" id="lbC"></span><span><button class="nv" id="lbP">Previous</button> <button class="nv" id="lbN">Next</button></span></div>
+</div></dialog>
+
+<script src="projects.js"></script>
+<script>
+const $=s=>document.querySelector(s), el=(h)=>{const t=document.createElement('template');t.innerHTML=h.trim();return t.content.firstChild};
+const im=(n,t)=>`img/${n}${t?'-t':''}.webp`;
+
+/* UI/UX */
+$('#uiList').append(...UIUX.map(p=>{
+  const g=p.goals&&p.goals.length?`<ul class="goals">${p.goals.map(x=>`<li>${x}</li>`).join('')}</ul>`:'';
+  const d=[['Role',p.role],['Tools',p.tools]].filter(x=>x[1]).map(x=>`<dt>${x[0]}</dt><dd>${x[1]}</dd>`).join('');
+  return el(`<article class="proj rv" style="--pa:${p.accent}">
+   <div class="shot" data-lb="${p.id}"><div class="frame"><div class="bar"><i></i><i></i><i></i></div><img src="${im(p.img+'-view')}" alt="${p.title} desktop design" loading="lazy"></div></div>
+   <div><div class="cat">${p.category}</div><h3>${p.title}</h3><p>${p.desc}</p><dl>${d}</dl>${g}
+   <div class="btns">${p.link?`<a class="btn gold" href="${p.link.href}" target="_blank" rel="noopener">${p.link.label}</a>`:''}<button class="btn ${p.link?'':'gold'}" data-lb="${p.id}">View full design</button></div></div></article>`);
+}));
+
+/* Lightbox */
+const dlg=$('#dlg');let set=[],ix=0,title='',brief='';
+function show(){const [s,c]=set[ix];$('#lbT').textContent=title;$('#lbB').innerHTML=brief;const I=$('#lbI');$('#lbV').scrollTop=0;I.onload=()=>$('#lbV').classList.toggle('tall',I.naturalHeight/I.naturalWidth>1.8);I.src=im(s);I.alt=c;$('#lbC').textContent=`${c} · ${ix+1} of ${set.length}`;
+  $('#lbP').hidden=$('#lbN').hidden=set.length<2;const S=$('#lbS');S.innerHTML='';S.hidden=set.length<2;
+  if(set.length>1)set.forEach((x,i)=>{const b=el(`<button aria-label="${x[1]}" ${i===ix?'aria-current="true"':''}><img src="${im(x[0],1)}" alt=""></button>`);b.onclick=()=>{ix=i;show()};S.append(b)})}
+function open(t,shots,i=0,b=''){title=t;set=shots;ix=i;brief=b;show();dlg.showModal();document.body.style.overflow='hidden'}
+dlg.addEventListener('close',()=>document.body.style.overflow='');
+$('#lbX').onclick=()=>dlg.close();
+$('#lbN').onclick=()=>{ix=(ix+1)%set.length;show()};$('#lbP').onclick=()=>{ix=(ix-1+set.length)%set.length;show()};
+dlg.addEventListener('click',e=>{if(e.target===dlg)dlg.close()});
+dlg.addEventListener('keydown',e=>{if(e.key==='ArrowRight')$('#lbN').click();if(e.key==='ArrowLeft')$('#lbP').click()});
+document.addEventListener('click',e=>{const t=e.target.closest('[data-lb]');if(!t)return;const p=UIUX.find(x=>x.id===t.dataset.lb);open(p.title,[[p.img+'-full','Full design, scroll to explore']])});
+
+/* Logos */
+$('#logoList').append(...LOGOS.map(l=>{const c=el(`<button class="lcard rv"><div class="im"><img src="${im(l.coverImg||l.shots[1][0],1)}" alt="${l.title} logo" loading="lazy" style="object-fit:${l.fit||'cover'}"></div><div class="t"><h3>${l.title}</h3><small>${l.sub}</small><span class="more">Click to see more about this logo: the concept, mockups and more</span></div></button>`);
+  c.onclick=()=>open(`${l.title} · ${l.sub}`,l.shots,0,[['Brief',l.brief],['Concept',l.concept],['Deliverables',l.deliver]].filter(x=>x[1]).map(x=>l.concept||l.deliver?`<p><b>${x[0]}.</b> ${x[1]}</p>`:`<p>${x[1]}</p>`).join(''));return c}));
+/* Flyers */
+$('#flyList').append(...FLYERS.map(f=>{const c=el(`<figure class="rv"><img src="${im(f.img,1)}" alt="${f.title} flyer" loading="lazy"><figcaption><b>${f.title}</b>${f.note}</figcaption></figure>`);
+  c.onclick=()=>open(f.title,[[f.img,f.note]]);return c}));
+/* Merch */
+let cw=0,mi=0;
+function merch(){const c=MERCH.colourways[cw];$('#swn').textContent=c.name;$('#stage').style.boxShadow=`0 24px 60px -24px ${c.hex}, inset 0 -6px 0 ${c.hex}`;$('#stage').innerHTML=`<img src="${im(c.imgs[mi])}" alt="${MERCH.brand} ${c.name} mockup">`;
+  $('#thumbs').innerHTML='';c.imgs.forEach((n,i)=>{const b=el(`<button aria-label="View ${i+1}" ${i===mi?'aria-current="true"':''}><img src="${im(n,1)}" alt=""></button>`);b.onclick=()=>{mi=i;merch()};$('#thumbs').append(b)})}
+$('#sw').append(...MERCH.colourways.map((c,i)=>{const b=el(`<button class="sw" aria-pressed="${i===0}"><i style="background:${c.hex}"></i>${c.name}</button>`);
+  b.onclick=()=>{cw=i;mi=0;document.querySelectorAll('.sw').forEach((x,j)=>x.setAttribute('aria-pressed',j===i));merch()};return b}));
+$('#stage').onclick=()=>{const c=MERCH.colourways[cw];open(`${MERCH.brand} · ${c.name}`,c.imgs.map(n=>[n,c.name]),mi)};merch();
+/* Tabs */
+document.querySelectorAll('.tab').forEach(t=>t.onclick=()=>{document.querySelectorAll('.tab').forEach(x=>x.setAttribute('aria-selected',x===t));document.querySelectorAll('.panel').forEach(p=>p.hidden=p.id!==t.dataset.p)});
+
+/* About */
+$('#exp').append(...EXPERIENCE.map(j=>el(`<div class="job rv"><h3>${j.role}</h3><small>${j.org} · ${j.when}</small><ul>${j.pts.map(x=>`<li>${x}</li>`).join('')}</ul></div>`)));
+$('#skills').append(...Object.entries(SKILLS).map(([k,v])=>el(`<div><h4>${k}</h4><ul>${v.map(x=>`<li>${x}</li>`).join('')}</ul></div>`)));
+const pi=new Image();pi.onload=()=>{$('#portrait').innerHTML='';$('#portrait').append(pi)};pi.alt=SITE.name;pi.src='img/portrait.webp';
+/* Testimonials */
+if(TESTIMONIALS.length){$('#testimonials').hidden=false;$('#tnav').hidden=false;
+  $('#tList').append(...TESTIMONIALS.map(t=>{const ini=t.name.split(' ').slice(0,2).map(x=>x[0]).join('');
+    return el(`<blockquote class="tcard rv"><p class="words">“${t.quote}”</p><footer>${t.photo?`<img src="${t.photo}" alt="${t.name}">`:`<span class="ini" aria-hidden="true">${ini}</span>`}<span><b><a href="${t.linkedin}" target="_blank" rel="noopener">${t.name}</a></b><br>${t.role}<br><em>Worked with me as ${t.worked}</em></span></footer></blockquote>`)}))}
+/* Contact */
+$('#cLinks').innerHTML=`<a class="big" href="mailto:${SITE.email}"><svg class="ic" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>${SITE.email}</a><a class="big" href="tel:${SITE.phone.replace(/\s/g,'')}"><svg class="ic" viewBox="0 0 24 24" width="1em" height="1em" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg>${SITE.phone}</a><a class="big" href="${SITE.linkedin}" target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.75h4V21H3zM9.75 9.75h3.8v1.6h.06c.53-1 1.82-2 3.75-2 4 0 4.74 2.6 4.74 6V21h-4v-4.9c0-1.2 0-2.7-1.7-2.7s-1.9 1.3-1.9 2.6V21h-4z"/></svg>Connect with me on LinkedIn</a><div class="btns" style="margin-top:26px"><button class="btn light" data-cv>Preview my CV</button><a class="btn gold" href="Mohammed_Mogaji_CV.pdf" download="Mogaji_Mohammed_Ajibola_CV.pdf">Download my CV (PDF) ↓</a></div>`;
+$('#yr').textContent=new Date().getFullYear();
+
+/* CV preview */
+const cvD=$('#cvDlg');
+document.addEventListener('click',e=>{if(e.target.closest('[data-cv]')){cvD.showModal();document.body.style.overflow='hidden';cvD.querySelector('.view').scrollTop=0}});
+$('#cvX').onclick=()=>cvD.close();cvD.addEventListener('close',()=>document.body.style.overflow='');
+cvD.addEventListener('click',e=>{if(e.target===cvD)cvD.close()});
+/* Nav, header, reveal */
+const hd=$('#hd'),bg=$('#burger');
+addEventListener('scroll',()=>hd.classList.toggle('solid',scrollY>60),{passive:true});
+bg.onclick=()=>{const o=document.body.classList.toggle('menu');bg.setAttribute('aria-expanded',o);bg.textContent=o?'Close':'Menu'};
+document.querySelectorAll('nav a').forEach(a=>a.onclick=()=>{document.body.classList.remove('menu');bg.textContent='Menu'});
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.rv').forEach(n=>io.observe(n));
+
+/* Splash, typing and scroll reveal */
+const RM=matchMedia('(prefers-reduced-motion: reduce)').matches;
+function typeP(){
+  const p=document.querySelector('.hero p');if(!p||RM)return;const full=p._full;
+  p.classList.add('typing');let n=0;
+  (function go(){p.textContent=full.slice(0,++n);if(n<full.length)setTimeout(go,18);else setTimeout(()=>p.classList.remove('typing'),1600)})()}
+function typeHero(){
+  const hp=document.querySelector('.hero p');if(hp){hp.setAttribute('aria-label',hp.textContent);if(!RM){hp._full=hp.textContent;hp.style.minHeight=hp.offsetHeight+'px';hp.textContent=''}}
+  const h=document.querySelector('.hero h1'),sp=h.querySelector('span'),t1=h.firstChild;
+  const a=t1.textContent.trim(),b=sp.textContent;h.setAttribute('aria-label',a+' '+b);
+  if(RM)return;t1.textContent='';sp.textContent='';let i=0;
+  h.classList.add('typing');const tick=()=>{
+    if(i<a.length){t1.textContent=a.slice(0,++i)}else if(i<a.length+b.length){sp.textContent=b.slice(0,++i-a.length)}
+    else{h.classList.remove('typing');typeP();return}
+    setTimeout(tick,60)};setTimeout(tick,300)}
+(function splash(){
+  const S=$('#splash');let seen=false;
+  try{const nav=performance.getEntriesByType('navigation')[0];seen=!!nav&&(nav.type==='reload'||nav.type==='back_forward')}catch(e){}
+  if(seen){S.remove();typeHero();return}
+  S.hidden=false;document.body.style.overflow='hidden';
+  const steps=[[0,10,'Brewing coffee…'],[1,30,'Stealing animations from Apple…'],[2,40,'Polishing Mohammed’s ego…'],[3,60,'Teaching pixels to behave…'],[4,80,'Aligning everything to the pixel…'],[5.2,95,'Almost there…'],[5.8,100,'Okay, now it’s ready.']];
+  let k=-1,done=false;const t0=performance.now();
+  function finish(){if(done)return;done=true;
+    S.classList.add('out');document.body.style.overflow='';setTimeout(()=>{S.remove();typeHero()},800)}
+  $('#spSkip').onclick=finish;
+  (function loop(now){if(done)return;const s=(now-t0)/1000;
+    $('#spBar').style.width=Math.min(s/6,1)*100+'%';
+    while(k+1<steps.length&&s>=steps[k+1][0]){k++;$('#spPct').textContent=steps[k][1]+'% there…';const m=$('#spMsg');m.classList.remove('sw');void m.offsetWidth;m.textContent=steps[k][2];m.classList.add('sw')}
+    if(s>=6){finish();return}requestAnimationFrame(loop)})(t0);
+})();
+document.querySelectorAll('.words').forEach(p=>{
+  const ws=p.textContent.trim().split(/\s+/);p.innerHTML=ws.map(w=>`<span class="w">${w}</span> `).join('');
+});
+const wp=[...document.querySelectorAll('.words')];let tk=false;
+function reveal(){tk=false;const vh=innerHeight;wp.forEach(p=>{const ws=p.querySelectorAll('.w'),r=p.getBoundingClientRect();
+  const prog=RM?1:Math.min(Math.max((vh*.88-r.top)/(vh*.5),0),1)*1.15;
+  ws.forEach((w,i)=>{w.style.opacity=.18+.82*Math.min(Math.max(prog*ws.length-i,0),1)})})}
+addEventListener('scroll',()=>{if(!tk){tk=true;requestAnimationFrame(reveal)}},{passive:true});addEventListener('resize',reveal);reveal();
+</script>
+</body>
+</html>
